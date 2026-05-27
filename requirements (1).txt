@@ -1,0 +1,28 @@
+# =============================================================================
+# BIRLA INSTITUTE OF TECHNOLOGY AND SCIENCE, PILANI — WILP
+# Deep Reinforcement Learning — Lab Assignment 1
+# Part 1: Multi-Armed Bandit (MAB)
+# Group: 218
+#
+# Install all dependencies with:
+#   pip install -r requirements.txt
+# =============================================================================
+
+# Numerical computing — array operations, random number generation
+numpy>=1.24.0
+
+# Data manipulation — DataFrame creation, CSV export
+pandas>=1.5.0
+
+# Plotting — cumulative reward comparison chart
+matplotlib>=3.6.0
+
+# The following are part of the Python standard library (no install needed):
+#   math       — math.log, math.sqrt  (UCB1 formula)
+#   random     — random.seed()        (reproducibility)
+#   os         — os.path, os.getcwd() (CSV file handling)
+#   platform   — platform.system()    (VM info)
+#   datetime   — datetime.datetime    (timestamp)
+#   socket     — socket.gethostname() (VM ID)
+#   base64     — base64.b64encode()   (notebook download links)
+#   IPython    — display, HTML        (notebook inline display — bundled with Jupyter)
