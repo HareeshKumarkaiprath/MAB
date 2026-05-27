@@ -2,16 +2,6 @@
 ## Part 1: Multi-Armed Bandit (MAB)
 ### Adaptive Treatment Recommendation System
 
-| Field | Details |
-|---|---|
-| **Institute** | BITS Pilani — Work Integrated Learning Programmes Division |
-| **Course** | Deep Reinforcement Learning |
-| **Assignment** | Lab Assignment 1 — Part 1 |
-| **Group Number** | 218 |
-| **Submission Deadline** | 8th June, 2026 |
-| **Submission Files** | `Team_218_MAB.py` · `Team_218_MAB.ipynb` |
-
----
 
 ## Problem Overview
 
