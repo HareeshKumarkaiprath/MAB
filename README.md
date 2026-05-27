@@ -1,6 +1,7 @@
 # Deep Reinforcement Learning — Lab Assignment 1
 ## Part 1: Multi-Armed Bandit (MAB)
 ### Adaptive Treatment Recommendation System
+<img width="1052" height="808" alt="image" src="https://github.com/user-attachments/assets/265713ca-4656-486e-8c61-34d95dd832bf" />
 
 
 ## Problem Overview
@@ -116,18 +117,25 @@ Then: **Kernel → Restart & Run All**
 - Computes K = 7 medicines and their hidden success probabilities
 - Prints first 10 rows of the base dataset
 
-### Task 2 — Immediate Exploitation / Greedy (1 Mark)
+### Task 2 — Immediate Exploitation / Greedy 
+<img width="1052" height="618" alt="image" src="https://github.com/user-attachments/assets/4b8e30b4-c75f-4636-88bc-28291db0c445" />
+
 - **Warm-up:** Each of the 7 medicines is tested exactly 10 times (70 patients total, round-robin)
 - **Exploitation:** All remaining 930 patients receive only the best-performing medicine
 - Implements `greedy_strategy(base_df, K, warm_up=10)`
 
-### Task 3 — Controlled Clinical Trial / ε-Greedy (1.5 Marks)
+### Task 3 — Controlled Clinical Trial / ε-Greedy 
+
+<img width="1052" height="650" alt="image" src="https://github.com/user-attachments/assets/a71c7b57-9a6c-48aa-ae41-8f6231d0d946" />
+
 - With probability ε → **explore** (random medicine)
 - With probability 1−ε → **exploit** (best known medicine)
 - Three runs: ε = 10% (main), ε = 1% (analysis), ε = 50% (analysis)
 - Implements `epsilon_greedy_strategy(base_df, K, epsilon, label)`
 
 ### Task 4 — Confidence-Based / UCB1 (1 Mark)
+<img width="1052" height="650" alt="image" src="https://github.com/user-attachments/assets/9b42230a-7900-4310-ad5c-1b6b7fd14f43" />
+
 - Selects the arm with the highest Upper Confidence Bound:
 
 ```
@@ -174,6 +182,7 @@ Each strategy dataset (`*_dataset_*.csv`) contains 1000 rows with these columns:
 The summary file (`Team_218_summary_all_strategies.csv`) contains 5 rows — one per strategy — with columns: `strategy`, `final_cumulative_reward`, `avg_utility_per_patient`, `recovery_rate`, `most_used_medicine`, `total_patients`.
 
 ---
+<img width="1052" height="650" alt="image" src="https://github.com/user-attachments/assets/5bea6afc-531e-43e4-9ff5-6c1b445dc5c1" />
 
 
 
