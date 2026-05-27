@@ -185,24 +185,5 @@ The summary file (`Team_218_summary_all_strategies.csv`) contains 5 rows — one
 
 ---
 
-## Submission Checklist
 
-- [ ] Run script in **Virtual Lab**
-- [ ] Screenshot with **timestamp** and **VM ID** visible at the top of the notebook
-- [ ] All 5 tasks executed with outputs visible
-- [ ] Comparison plot included
-- [ ] CSV datasets generated and attached
-- [ ] Submitted as **PDF** format
-- [ ] Comments present on every function and operation
-- [ ] Only **one submission per group**
-- [ ] Submitted at least **2 days before the deadline** (by 6th June 2026)
 
----
-
-## Contact
-
-For clarifications, email **all three** instructors:
-
-- Subash — subasharun@wilp.bits-pilani.ac.in
-- Divya K — divyak@wilp.bits-pilani.ac.in
-- Dincy R Arikkat — dincyrarikkat@wilp.bits-pilani.ac.in
